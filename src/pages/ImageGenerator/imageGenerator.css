@@ -1,0 +1,57 @@
+/* imageGenerator.css */
+
+.image-generator-main-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.image-card {
+    position: relative; /* Make image-card relative for absolute positioning */
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.image-container {
+    position: relative; /* Make image-container relative for absolute positioning */
+    background-size: cover;
+    background-position: center;
+    height: 300px;
+    width: 400px;
+    border-radius: 10px;
+    overflow: hidden;
+    background-color: transparent;
+    border: 1px solid #ccc; /* Optionally, add a border for visual distinction */
+}
+
+.image-container input,
+.image-container button {
+    position: absolute;
+    bottom: 10px; /* Adjust bottom spacing as needed */
+    width: calc(100% - 20px);
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    outline: none;
+}
+
+.image-container input {
+    margin-bottom: 40px; /* Add extra margin for button */
+}
+
+.image-container button {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.image-container button:hover {
+    background-color: #45a049;
+}

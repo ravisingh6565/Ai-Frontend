@@ -1,0 +1,22 @@
+/* HistoryInformationPage.css */
+
+.history-card {
+    background: linear-gradient(to bottom right, #333, #666);
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin: 20px;
+    background-color: purple;
+}
+
+.container {
+    padding: 48px;
+}
+
+.title {
+    font-size: 24px;
+    margin-bottom: 16px;
+}
+
+.image {
+    margin-bottom: 16px;
+}
