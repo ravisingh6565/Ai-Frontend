@@ -6,7 +6,7 @@
   "type": "module",
   "scripts": {
     "start": "npx parcel index.html",
-
+    "build": "npx parcel build index.html",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
